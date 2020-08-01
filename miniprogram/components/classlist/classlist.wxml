@@ -1,0 +1,12 @@
+<view class="container" bind:tap="goToMusiclist">
+	<block wx:if="{{range>=classlist.range}}">
+		<image src="{{classlist.url1}}" class="img" mode="widthFix"></image>
+		<block wx:if="{{classlist.range>0}}">
+			<image src="./images/flag.png" class="flag"></image>
+		</block>
+	</block>
+	<block wx:else>
+		<image src="{{classlist.url2}}" class="img" mode="widthFix"></image>
+		<text class="desc">{{classlist.desc}}</text>
+	</block>
+</view>

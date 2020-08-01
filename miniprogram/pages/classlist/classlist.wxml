@@ -1,0 +1,16 @@
+<view class="container">
+	<image class="bg" src="/images/mybackground.jpg"></image>
+	<view class="avatar-url">
+		<open-data type="userAvatarUrl"></open-data>
+	</view>
+	<open-data type="userNickName" class="nickname"></open-data>
+	<view class="onlinetime">{{onlinetime}}</view>
+	<text class="onlinetime-text">我的时长</text>
+</view>
+
+<view class="classlist-container">
+	<text class="classlist-text">我的修行</text>
+	<block wx:for="{{classlist}}" wx:key="_id">
+		<v-classlist class="v-classlist" classlist="{{item}}" range="{{range}}"/>
+	</block>
+</view>

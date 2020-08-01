@@ -1,0 +1,52 @@
+page {
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+}
+
+.bg {
+    width: 100%;
+    height: 550rpx;
+    background: #ffffff;
+    border-radius: 35px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 450rpx;
+}
+
+.bg-text {
+    position: absolute;
+    top: 470rpx;
+    left: 100rpx;
+    font-size: 38rpx;
+    font-weight: 550;
+}
+
+.class-name {
+    position: absolute;
+    top: 570rpx;
+    left: 100rpx;
+    font-size: 35rpx;
+    font-weight: 600;  
+}
+
+.musiclist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 630rpx;
+    width: 100%;
+}
+
+.navi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15rpx;
+    margin-bottom: 15rpx;
+}

@@ -1,0 +1,29 @@
+<view class="container">
+	<view class="header">
+		<v-date class="episode" />
+	</view>
+	<view class="currentTime-container">
+		<text class="currentTime">{{currentTime}}</text>
+	</view>
+</view>
+
+<view class="player-info">
+	<!-- 封面信息 -->
+	<view class="player-container">
+		<image class="player-img rotation {{isPlaying?'':'rotation-paused'}}" src="/images/play.png" mode="aspectFill"></image>
+	</view>
+	<!-- 进度条 -->
+	<view class="progress-bar">
+		<v-progress-bar bind:musicEnd="onNext" 
+        bind:musicPlay="onPlay" 
+        bind:musicPause="onPause"
+        isSame="{{isSame}}"
+        />
+	</view>
+	<!-- 控制面板 -->
+	<view class="control">
+		<text class="iconfont icon-shangyishou" bind:tap="onPrev"></text>
+		<text class="iconfont {{isPlaying?'icon-zanting':'icon-bofang'}}" bind:tap="togglePlaying"></text>
+		<text class="iconfont icon-xiayishou" bind:tap="onNext"></text>
+	</view>
+</view>

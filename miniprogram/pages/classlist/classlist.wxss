@@ -1,0 +1,68 @@
+page {
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg {
+  width: 750rpx;
+  height: 560rpx;
+}
+
+.avatar-url {
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  overflow: hidden;
+  border: 6rpx solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 255rpx;
+}
+
+.nickname {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  font-weight: 400;
+  position: absolute;
+  top: 370rpx;
+}
+
+.onlinetime {
+  font-size: 38rpx;
+  margin-top: 20rpx;
+  font-weight: 550;
+  position: absolute;
+  top: 430rpx;
+}
+
+.onlinetime-text {
+  font-size: 25rpx;
+  color: #bdafaf;
+  margin-top: 20rpx;
+  font-weight: 540;
+  position: absolute;
+  top: 490rpx;
+}
+
+.classlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classlist-text {
+  font-size: 38rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  font-weight: 580;
+}
+
+.v-classlist {
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}

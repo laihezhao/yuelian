@@ -1,0 +1,8 @@
+<block class="container" wx:for="{{musiclist}}" wx:key="id">
+	<view class="container-index" bind:tap="goToPlayer" data-musicid="{{item.id}}">
+		<image class="img" src="{{playingId==item.id?item.playurl:item.pauseurl}}" />
+		<view class="container-content">
+			<text class="music-name {{playingId==item.id?'playing':''}}">{{item.name}}</text>
+		</view>
+	</view>
+</block>

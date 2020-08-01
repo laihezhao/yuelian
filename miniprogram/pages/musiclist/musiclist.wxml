@@ -1,0 +1,12 @@
+<view class="container">
+	<view class="bg">
+		<image class="bg-img" src="/images/background.jpg" mode="widthFix"></image>
+		<text class="bg-text">音 乐 套 餐</text>
+	</view>
+	<view>
+		<text class="class-name">进 阶 名 称</text>
+	</view>
+</view>
+<view class="musiclist-container">
+	<v-navi class="navi" musiclist="{{musiclist}}" />
+</view>

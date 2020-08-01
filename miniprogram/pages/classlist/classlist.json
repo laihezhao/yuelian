@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-classlist": "/components/classlist/classlist"
+  },
+  "navigationBarTitleText": "音乐进阶",
+  "disableScroll": false,
+  "enablePullDownRefresh": true
+}

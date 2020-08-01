@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/profile/profile",
+    "pages/classlist/classlist",
+    "pages/musiclist/musiclist",
+    "pages/player/player"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "悦莲",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "iconPath": "/images/profile.png",
+        "selectedIconPath": "/images/profile-actived.png"
+      },
+      {
+        "pagePath": "pages/classlist/classlist",
+        "iconPath": "/images/classlist.png",
+        "selectedIconPath": "/images/classlist-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "requiredBackgroundModes": ["audio"]
+}

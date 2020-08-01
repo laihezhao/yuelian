@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-date": "/components/date/date"
+  },
+  "disableScroll": false
+}

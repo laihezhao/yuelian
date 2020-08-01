@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "v-date":"/components/date/date",
+    "v-progress-bar": "/components/progress-bar/progress-bar"
+  },
+  "disableScroll": false
+}

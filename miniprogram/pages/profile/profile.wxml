@@ -1,0 +1,47 @@
+<view class="container">
+	<view class="header">
+		<v-date class="date" />
+	</view>
+	<view class="currentTime-container">
+		<text class="currentTime">{{currentTime}}</text>
+	</view>
+	<image class="img" src="/images/base.png"></image>
+	<view class="text-container">
+		<view class="text_1">
+			<view>聆</view>
+			<view>饕</view>
+			<view>歌</view>
+			<view>以</view>
+		</view>
+		<view class="text_1">
+			<view>听</view>
+			<view>餮</view>
+			<view>咏</view>
+			<view>此</view>
+		</view>
+		<view class="text_1">
+			<view>千</view>
+			<view>天</view>
+			<view>诵</view>
+			<view>为</view>
+		</view>
+		<view class="text_1">
+			<view>年</view>
+			<view>上</view>
+			<view>法</view>
+			<view>音</view>
+		</view>
+		<view class="text_1">
+			<view>梵</view>
+			<view>人</view>
+			<view>言</view>
+			<view>乐</view>
+		</view>
+		<view class="text_2">
+			<view class="yin">音</view>
+			<view class="jian">间</view>
+		</view>
+	</view>
+</view>
+
+<view class="sign">。</view>

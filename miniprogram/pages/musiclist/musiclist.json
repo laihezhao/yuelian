@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "v-navi": "/components/navi/navi"
+  },
+  "navigationBarTitleText": "音乐套餐",
+  "disableScroll": false,
+  "enablePullDownRefresh": true
+}
